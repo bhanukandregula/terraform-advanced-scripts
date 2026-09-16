@@ -1,0 +1,7 @@
+# This workspace only tracks Terraform configuration (.tf) files.
+# Everything else (state, provider binaries, lock files, credentials,
+# sample output files, etc.) is intentionally ignored.
+*
+!*/
+!*.tf
+!.gitignore
